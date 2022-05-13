@@ -1,0 +1,70 @@
+.App {
+    width: 100w;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    background-color: #445f73;
+    width: 100%;
+    height: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    color: beige;
+}
+
+.navbar .LHS {
+    flex: 50%;
+    justify-content: center;
+    display: flex;
+
+    align-items: center;
+
+}
+
+.navbar .RHS {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.navbar .LHS .links {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+    font-weight: 100;
+    margin-left: 15px;
+
+}
+
+.navbar .LHS .links a {
+    padding: 20px;
+    color: beige;
+}
+
+.navbar button {
+    width: 65px;
+    border-radius: 3px;
+    border: black;
+
+}
+
+button {
+    height: 25px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.navbar .RHS input {
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 7px;
+}
